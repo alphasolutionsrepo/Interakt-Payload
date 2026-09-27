@@ -1,0 +1,70 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+:root {
+  --paper: #f6f3ec;
+  --surface: #fffdf8;
+  --ink: #1d1b18;
+  --muted: #6b655c;
+  --line: #e2dcd0;
+  --accent: #9b3d26;
+  --accent-soft: #f1e2d9;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #141311;
+    --surface: #1c1a17;
+    --ink: #eeeae2;
+    --muted: #a39c90;
+    --line: #34302a;
+    --accent: #e0896b;
+    --accent-soft: #3a2620;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, serif;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--accent-soft);
+}
+
+/* Long-form bodies (stories, exhibition texts, bios). */
+.prose-lumen {
+  --tw-prose-body: var(--ink);
+  --tw-prose-headings: var(--ink);
+  --tw-prose-links: var(--accent);
+  --tw-prose-bold: var(--ink);
+  --tw-prose-quotes: var(--ink);
+  --tw-prose-quote-borders: var(--accent);
+  --tw-prose-bullets: var(--muted);
+  --tw-prose-counters: var(--muted);
+  --tw-prose-hr: var(--line);
+  --tw-prose-captions: var(--muted);
+}
+.prose-lumen h2,
+.prose-lumen h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+}
+.prose-lumen blockquote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.25em;
+}

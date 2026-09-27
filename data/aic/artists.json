@@ -1,0 +1,2410 @@
+[
+  {
+    "aicId": 35809,
+    "name": "Claude Monet",
+    "slug": "claude-monet",
+    "birthYear": 1840,
+    "deathYear": 1926,
+    "nationality": "French",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 28
+  },
+  {
+    "aicId": 34611,
+    "name": "Paul Gauguin",
+    "slug": "paul-gauguin",
+    "birthYear": 1848,
+    "deathYear": 1903,
+    "nationality": "French",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 11
+  },
+  {
+    "aicId": 26086,
+    "name": "Narcissa Niblack Thorne",
+    "slug": "narcissa-niblack-thorne",
+    "birthYear": 1882,
+    "deathYear": 1966,
+    "nationality": "American",
+    "movements": [
+      "modernism",
+      "rococo-neoclassicism",
+      "renaissance",
+      "baroque"
+    ],
+    "artworkCount": 10
+  },
+  {
+    "aicId": 36540,
+    "name": "John Singer Sargent",
+    "slug": "john-singer-sargent",
+    "birthYear": 1856,
+    "deathYear": 1925,
+    "nationality": "American",
+    "movements": [
+      "impressionism",
+      "realism"
+    ],
+    "artworkCount": 9
+  },
+  {
+    "aicId": 35577,
+    "name": "Édouard Manet",
+    "slug": "edouard-manet",
+    "birthYear": 1832,
+    "deathYear": 1883,
+    "nationality": "French",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 8
+  },
+  {
+    "aicId": 40615,
+    "name": "Francisco José de Goya y Lucientes",
+    "slug": "francisco-jose-de-goya-y-lucientes",
+    "birthYear": 1746,
+    "deathYear": 1828,
+    "nationality": "Spanish",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 8
+  },
+  {
+    "aicId": 37279,
+    "name": "James McNeill Whistler",
+    "slug": "james-mcneill-whistler",
+    "birthYear": 1834,
+    "deathYear": 1903,
+    "nationality": "American",
+    "movements": [
+      "impressionism",
+      "modernism"
+    ],
+    "artworkCount": 8
+  },
+  {
+    "aicId": 40610,
+    "name": "Vincent van Gogh",
+    "slug": "vincent-van-gogh",
+    "birthYear": 1853,
+    "deathYear": 1890,
+    "nationality": "Dutch",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 8
+  },
+  {
+    "aicId": 36972,
+    "name": "Giovanni Battista Tiepolo",
+    "slug": "giovanni-battista-tiepolo",
+    "birthYear": 1696,
+    "deathYear": 1770,
+    "nationality": "Italian",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 5
+  },
+  {
+    "aicId": 40869,
+    "name": "Henri de Toulouse-Lautrec",
+    "slug": "henri-de-toulouse-lautrec",
+    "birthYear": 1864,
+    "deathYear": 1901,
+    "nationality": "French",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 5
+  },
+  {
+    "aicId": 40543,
+    "name": "Hilaire Germain Edgar Degas",
+    "slug": "hilaire-germain-edgar-degas",
+    "birthYear": 1834,
+    "deathYear": 1917,
+    "nationality": "French",
+    "movements": [
+      "impressionism",
+      "realism"
+    ],
+    "artworkCount": 5
+  },
+  {
+    "aicId": 40482,
+    "name": "Paul Cezanne",
+    "slug": "paul-cezanne",
+    "birthYear": 1839,
+    "deathYear": 1906,
+    "nationality": "French",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 5
+  },
+  {
+    "aicId": 36487,
+    "name": "Peter Paul Rubens",
+    "slug": "peter-paul-rubens",
+    "birthYear": 1577,
+    "deathYear": 1640,
+    "nationality": "Flemish",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 5
+  },
+  {
+    "aicId": 34988,
+    "name": "Winslow Homer",
+    "slug": "winslow-homer",
+    "birthYear": 1836,
+    "deathYear": 1910,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 5
+  },
+  {
+    "aicId": 36418,
+    "name": "Auguste Rodin",
+    "slug": "auguste-rodin",
+    "birthYear": 1840,
+    "deathYear": 1917,
+    "nationality": "French",
+    "movements": [
+      "post-impressionism",
+      "realism"
+    ],
+    "artworkCount": 4
+  },
+  {
+    "aicId": 36211,
+    "name": "Camille Pissarro",
+    "slug": "camille-pissarro",
+    "birthYear": 1830,
+    "deathYear": 1903,
+    "nationality": "French",
+    "movements": [
+      "impressionism",
+      "post-impressionism"
+    ],
+    "artworkCount": 4
+  },
+  {
+    "aicId": 35061,
+    "name": "George Inness",
+    "slug": "george-inness",
+    "birthYear": 1825,
+    "deathYear": 1894,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 4
+  },
+  {
+    "aicId": 31492,
+    "name": "Katsushika Hokusai",
+    "slug": "katsushika-hokusai",
+    "birthYear": 1760,
+    "deathYear": 1849,
+    "nationality": "Japanese",
+    "movements": [
+      "east-asian"
+    ],
+    "artworkCount": 4
+  },
+  {
+    "aicId": 36977,
+    "name": "Tiffany and Company",
+    "slug": "tiffany-and-company",
+    "nationality": "American",
+    "movements": [
+      "arts-and-crafts"
+    ],
+    "artworkCount": 4
+  },
+  {
+    "aicId": 1356,
+    "name": "Baccarat Glassworks",
+    "slug": "baccarat-glassworks",
+    "nationality": "Lorraine",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 3
+  },
+  {
+    "aicId": 42134,
+    "name": "Domenico Theotokópoulos, called El Greco",
+    "slug": "domenico-theotokopoulos-called-el-greco",
+    "birthYear": 1541,
+    "deathYear": 1614,
+    "nationality": "Greek",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 3
+  },
+  {
+    "aicId": 40545,
+    "name": "Eugène Delacroix",
+    "slug": "eugene-delacroix",
+    "birthYear": 1798,
+    "deathYear": 1863,
+    "nationality": "French",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 3
+  },
+  {
+    "aicId": 9093,
+    "name": "Henry Fuseli",
+    "slug": "henry-fuseli",
+    "birthYear": 1741,
+    "deathYear": 1825,
+    "nationality": "Swiss",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 3
+  },
+  {
+    "aicId": 34853,
+    "name": "Marsden Hartley",
+    "slug": "marsden-hartley",
+    "birthYear": 1877,
+    "deathYear": 1943,
+    "nationality": "American",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 3
+  },
+  {
+    "aicId": 33890,
+    "name": "Mary Cassatt",
+    "slug": "mary-cassatt",
+    "birthYear": 1844,
+    "deathYear": 1926,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 3
+  },
+  {
+    "aicId": 36351,
+    "name": "Pierre-Auguste Renoir",
+    "slug": "pierre-auguste-renoir",
+    "birthYear": 1841,
+    "deathYear": 1919,
+    "nationality": "French",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 3
+  },
+  {
+    "aicId": 17549,
+    "name": "Piet Mondrian",
+    "slug": "piet-mondrian",
+    "birthYear": 1872,
+    "deathYear": 1944,
+    "nationality": "Dutch",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 3
+  },
+  {
+    "aicId": 30850,
+    "name": "Aimé-Jules Dalou",
+    "slug": "aime-jules-dalou",
+    "birthYear": 1838,
+    "deathYear": 1902,
+    "nationality": "French",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 105658,
+    "name": "Aj Maxam",
+    "slug": "aj-maxam",
+    "movements": [
+      "ancient-americas"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 36707,
+    "name": "Alfred Sisley",
+    "slug": "alfred-sisley",
+    "birthYear": 1839,
+    "deathYear": 1899,
+    "nationality": "British",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 35834,
+    "name": "Berthe Morisot",
+    "slug": "berthe-morisot",
+    "birthYear": 1841,
+    "deathYear": 1895,
+    "nationality": "French",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 44842,
+    "name": "Chicago Painter",
+    "slug": "chicago-painter",
+    "movements": [
+      "ancient-greece"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 34864,
+    "name": "Childe Hassam",
+    "slug": "childe-hassam",
+    "birthYear": 1859,
+    "deathYear": 1935,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 103960,
+    "name": "Edward C. Moore",
+    "slug": "edward-c-moore",
+    "birthYear": 1827,
+    "deathYear": 1891,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 58479,
+    "name": "Emma Stebbins",
+    "slug": "emma-stebbins",
+    "birthYear": 1815,
+    "deathYear": 1882,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 34761,
+    "name": "Francesco Guardi",
+    "slug": "francesco-guardi",
+    "birthYear": 1712,
+    "deathYear": 1793,
+    "nationality": "Italian",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 21570,
+    "name": "Frederic Remington",
+    "slug": "frederic-remington",
+    "birthYear": 1851,
+    "deathYear": 1909,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 34953,
+    "name": "George Hitchcock",
+    "slug": "george-hitchcock",
+    "birthYear": 1850,
+    "deathYear": 1913,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 40810,
+    "name": "Georges Seurat",
+    "slug": "georges-seurat",
+    "birthYear": 1859,
+    "deathYear": 1891,
+    "nationality": "French",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 20528,
+    "name": "Giovanni Battista Piazzetta",
+    "slug": "giovanni-battista-piazzetta",
+    "birthYear": 1682,
+    "deathYear": 1754,
+    "nationality": "Italian",
+    "movements": [
+      "rococo-neoclassicism",
+      "realism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 3829,
+    "name": "Gustave Caillebotte",
+    "slug": "gustave-caillebotte",
+    "birthYear": 1848,
+    "deathYear": 1894,
+    "nationality": "French",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 35670,
+    "name": "Henri Matisse",
+    "slug": "henri-matisse",
+    "birthYear": 1869,
+    "deathYear": 1954,
+    "nationality": "French",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 20947,
+    "name": "Hiram Powers",
+    "slug": "hiram-powers",
+    "birthYear": 1805,
+    "deathYear": 1873,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 36407,
+    "name": "Hubert Robert",
+    "slug": "hubert-robert",
+    "birthYear": 1733,
+    "deathYear": 1808,
+    "nationality": "French",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 34147,
+    "name": "Jacques Louis David",
+    "slug": "jacques-louis-david",
+    "birthYear": 1748,
+    "deathYear": 1825,
+    "nationality": "French",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 37048,
+    "name": "John Henry Twachtman",
+    "slug": "john-henry-twachtman",
+    "birthYear": 1853,
+    "deathYear": 1902,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 34901,
+    "name": "Robert Henri",
+    "slug": "robert-henri",
+    "birthYear": 1865,
+    "deathYear": 1929,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 33710,
+    "name": "Sandro Botticelli",
+    "slug": "sandro-botticelli",
+    "birthYear": 1444,
+    "deathYear": 1510,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 36658,
+    "name": "Soga Shohaku",
+    "slug": "soga-shohaku",
+    "birthYear": 1730,
+    "deathYear": 1781,
+    "nationality": "Japanese",
+    "movements": [
+      "east-asian"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 34007,
+    "name": "Thomas Cole",
+    "slug": "thomas-cole",
+    "birthYear": 1801,
+    "deathYear": 1848,
+    "nationality": "American",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 34946,
+    "name": "Utagawa Hiroshige",
+    "slug": "utagawa-hiroshige",
+    "birthYear": 1797,
+    "deathYear": 1858,
+    "nationality": "Japanese",
+    "movements": [
+      "east-asian"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 35188,
+    "name": "Vasily Kandinsky",
+    "slug": "vasily-kandinsky",
+    "birthYear": 1866,
+    "deathYear": 1944,
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 41673,
+    "name": "William Merritt Chase",
+    "slug": "william-merritt-chase",
+    "birthYear": 1849,
+    "deathYear": 1916,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 2
+  },
+  {
+    "aicId": 115810,
+    "name": "A. & H. Lejambre",
+    "slug": "a-and-h-lejambre",
+    "nationality": "American",
+    "movements": [
+      "arts-and-crafts"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 25722,
+    "name": "Abbott Handerson Thayer",
+    "slug": "abbott-handerson-thayer",
+    "birthYear": 1849,
+    "deathYear": 1921,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 57595,
+    "name": "Abogunde of Ede",
+    "slug": "abogunde-of-ede",
+    "movements": [
+      "african-traditions"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 12786,
+    "name": "Abraham Janssens",
+    "slug": "abraham-janssens",
+    "birthYear": 1575,
+    "deathYear": 1632,
+    "nationality": "Flemish",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41186,
+    "name": "Abraham Jansz. van Diepenbeeck",
+    "slug": "abraham-jansz-van-diepenbeeck",
+    "birthYear": 1596,
+    "deathYear": 1675,
+    "nationality": "Flemish",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 48241,
+    "name": "Achilles Painter",
+    "slug": "achilles-painter",
+    "movements": [
+      "ancient-greece"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41747,
+    "name": "Adam Elsheimer",
+    "slug": "adam-elsheimer",
+    "birthYear": 1578,
+    "deathYear": 1610,
+    "nationality": "German",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 24621,
+    "name": "Adriaen van der Spelt",
+    "slug": "adriaen-van-der-spelt",
+    "birthYear": 1630,
+    "deathYear": 1673,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41137,
+    "name": "Adriaen van Ostade",
+    "slug": "adriaen-van-ostade",
+    "birthYear": 1610,
+    "deathYear": 1685,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 21777,
+    "name": "Adrian Ludwig (Ludwig) Richter",
+    "slug": "adrian-ludwig-ludwig-richter",
+    "birthYear": 1803,
+    "deathYear": 1884,
+    "nationality": "German",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40512,
+    "name": "Aelbert Cuyp",
+    "slug": "aelbert-cuyp",
+    "birthYear": 1620,
+    "deathYear": 1691,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41223,
+    "name": "Aert de Gelder",
+    "slug": "aert-de-gelder",
+    "birthYear": 1645,
+    "deathYear": 1727,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 3458,
+    "name": "Agostino Brunias",
+    "slug": "agostino-brunias",
+    "birthYear": 1730,
+    "deathYear": 1796,
+    "nationality": "Italian",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 33637,
+    "name": "Albert Bierstadt",
+    "slug": "albert-bierstadt",
+    "birthYear": 1830,
+    "deathYear": 1902,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 22609,
+    "name": "Albert Pinkham Ryder",
+    "slug": "albert-pinkham-ryder",
+    "birthYear": 1847,
+    "deathYear": 1917,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 102578,
+    "name": "Albert Schindler",
+    "slug": "albert-schindler",
+    "birthYear": 1805,
+    "deathYear": 1861,
+    "nationality": "Austrian",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40561,
+    "name": "Albrecht Dürer",
+    "slug": "albrecht-durer",
+    "birthYear": 1471,
+    "deathYear": 1528,
+    "nationality": "German",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 35562,
+    "name": "Alessandro Magnasco",
+    "slug": "alessandro-magnasco",
+    "birthYear": 1667,
+    "deathYear": 1749,
+    "nationality": "Italian",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 27538,
+    "name": "Alessandro Vittoria",
+    "slug": "alessandro-vittoria",
+    "birthYear": 1525,
+    "deathYear": 1608,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 49386,
+    "name": "Alexander Roux",
+    "slug": "alexander-roux",
+    "birthYear": 1813,
+    "deathYear": 1886,
+    "nationality": "American",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 53345,
+    "name": "Alvan Fisher",
+    "slug": "alvan-fisher",
+    "birthYear": 1792,
+    "deathYear": 1863,
+    "nationality": "American",
+    "movements": [
+      "early-american"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 35801,
+    "name": "Amedeo Modigliani",
+    "slug": "amedeo-modigliani",
+    "birthYear": 1884,
+    "deathYear": 1920,
+    "nationality": "Italian",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 118109,
+    "name": "American China Manufactory",
+    "slug": "american-china-manufactory",
+    "nationality": "American",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 48525,
+    "name": "Ampersand Painter",
+    "slug": "ampersand-painter",
+    "movements": [
+      "ancient-greece"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 50495,
+    "name": "André Charles Boulle",
+    "slug": "andre-charles-boulle",
+    "birthYear": 1642,
+    "deathYear": 1732,
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 33858,
+    "name": "Antonio Canova",
+    "slug": "antonio-canova",
+    "birthYear": 1757,
+    "deathYear": 1822,
+    "nationality": "Italian",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40500,
+    "name": "Antonio da Correggio",
+    "slug": "antonio-da-correggio",
+    "birthYear": 1489,
+    "deathYear": 1534,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 16057,
+    "name": "Antonio Mancini",
+    "slug": "antonio-mancini",
+    "birthYear": 1852,
+    "deathYear": 1930,
+    "nationality": "Italian",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 33320,
+    "name": "Arnold Böcklin",
+    "slug": "arnold-bocklin",
+    "birthYear": 1827,
+    "deathYear": 1901,
+    "nationality": "Swiss",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41483,
+    "name": "Bartolomeo Manfredi",
+    "slug": "bartolomeo-manfredi",
+    "birthYear": 1570,
+    "deathYear": 1630,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 16414,
+    "name": "Bernat Martorell",
+    "slug": "bernat-martorell",
+    "birthYear": 1395,
+    "deathYear": 1452,
+    "nationality": "Spanish",
+    "movements": [
+      "medieval"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 52507,
+    "name": "Camille Claudel",
+    "slug": "camille-claudel",
+    "birthYear": 1864,
+    "deathYear": 1943,
+    "nationality": "French",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 44584,
+    "name": "Carl Blechen",
+    "slug": "carl-blechen",
+    "birthYear": 1798,
+    "deathYear": 1840,
+    "nationality": "German",
+    "movements": [
+      "ancient-greece"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 33567,
+    "name": "Cecilia Beaux",
+    "slug": "cecilia-beaux",
+    "birthYear": 1855,
+    "deathYear": 1942,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 112864,
+    "name": "Cevedra B. Sheldon",
+    "slug": "cevedra-b-sheldon",
+    "birthYear": 1840,
+    "deathYear": 1895,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 5703,
+    "name": "Charles Courtney Curran",
+    "slug": "charles-courtney-curran",
+    "birthYear": 1861,
+    "deathYear": 1942,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 15877,
+    "name": "Charles Rennie Mackintosh",
+    "slug": "charles-rennie-mackintosh",
+    "birthYear": 1868,
+    "deathYear": 1928,
+    "nationality": "Scottish",
+    "movements": [
+      "arts-and-crafts"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36153,
+    "name": "Charles Willson Peale",
+    "slug": "charles-willson-peale",
+    "birthYear": 1741,
+    "deathYear": 1827,
+    "nationality": "American",
+    "movements": [
+      "early-american"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 66677,
+    "name": "Circle of Agnolo Bronzino",
+    "slug": "circle-of-agnolo-bronzino",
+    "birthYear": 1503,
+    "deathYear": 1572,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 104707,
+    "name": "Clara Driscoll",
+    "slug": "clara-driscoll",
+    "birthYear": 1861,
+    "deathYear": 1944,
+    "nationality": "American",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 31257,
+    "name": "Claude Lorrain",
+    "slug": "claude-lorrain",
+    "birthYear": 1600,
+    "deathYear": 1682,
+    "nationality": "French",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41255,
+    "name": "Cornelis Cornelisz.",
+    "slug": "cornelis-cornelisz",
+    "birthYear": 1562,
+    "deathYear": 1638,
+    "nationality": "Dutch",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 31712,
+    "name": "Cornelius Kierstede",
+    "slug": "cornelius-kierstede",
+    "birthYear": 1675,
+    "deathYear": 1757,
+    "nationality": "American",
+    "movements": [
+      "early-american"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 33951,
+    "name": "Daniel Chester French",
+    "slug": "daniel-chester-french",
+    "birthYear": 1850,
+    "deathYear": 1931,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 50668,
+    "name": "Daniel Hudson Burnham",
+    "slug": "daniel-hudson-burnham",
+    "birthYear": 1846,
+    "deathYear": 1912,
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 103575,
+    "name": "Daniel Pabst",
+    "slug": "daniel-pabst",
+    "birthYear": 1826,
+    "deathYear": 1910,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36457,
+    "name": "Dante Gabriel Rossetti",
+    "slug": "dante-gabriel-rossetti",
+    "birthYear": 1828,
+    "deathYear": 1882,
+    "nationality": "English",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 53629,
+    "name": "David Drake",
+    "slug": "david-drake",
+    "birthYear": 1801,
+    "deathYear": 1870,
+    "nationality": "American",
+    "movements": [
+      "arts-and-crafts"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 52802,
+    "name": "De Scott Evans",
+    "slug": "de-scott-evans",
+    "birthYear": 1847,
+    "deathYear": 1898,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41188,
+    "name": "Diego Velázquez",
+    "slug": "diego-velazquez",
+    "birthYear": 1599,
+    "deathYear": 1660,
+    "nationality": "Spanish",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36482,
+    "name": "Du Paquier Porcelain Manufactory",
+    "slug": "du-paquier-porcelain-manufactory",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 35142,
+    "name": "Eastman Johnson",
+    "slug": "eastman-johnson",
+    "birthYear": 1824,
+    "deathYear": 1906,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 44014,
+    "name": "Edvard Munch",
+    "slug": "edvard-munch",
+    "birthYear": 1863,
+    "deathYear": 1944,
+    "nationality": "Norwegian",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 117170,
+    "name": "Edwaert Collier",
+    "slug": "edwaert-collier",
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 9865,
+    "name": "Edward William Godwin",
+    "slug": "edward-william-godwin",
+    "birthYear": 1833,
+    "deathYear": 1886,
+    "nationality": "English",
+    "movements": [
+      "arts-and-crafts"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 118916,
+    "name": "El Greco (Doménikos Theotokópoulos) and workshop",
+    "slug": "el-greco-domenikos-theotokopoulos-and-workshop",
+    "nationality": "Greek",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40454,
+    "name": "Eugène Louis Boudin",
+    "slug": "eugene-louis-boudin",
+    "birthYear": 1824,
+    "deathYear": 1898,
+    "nationality": "French",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 9960,
+    "name": "Eva Gonzalès",
+    "slug": "eva-gonzales",
+    "birthYear": 1849,
+    "deathYear": 1883,
+    "nationality": "French",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 26998,
+    "name": "Félix Edouard Vallotton",
+    "slug": "felix-edouard-vallotton",
+    "birthYear": 1865,
+    "deathYear": 1925,
+    "nationality": "Swiss",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 15733,
+    "name": "Fernand Lungren",
+    "slug": "fernand-lungren",
+    "birthYear": 1857,
+    "deathYear": 1932,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 110609,
+    "name": "Foundry of Johannes Apengeter",
+    "slug": "foundry-of-johannes-apengeter",
+    "nationality": "German",
+    "movements": [
+      "medieval"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 743,
+    "name": "Fra Angelico",
+    "slug": "fra-angelico",
+    "birthYear": 1387,
+    "deathYear": 1455,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40426,
+    "name": "Fra Bartolommeo",
+    "slug": "fra-bartolommeo",
+    "birthYear": 1472,
+    "deathYear": 1517,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 7268,
+    "name": "Francesco Durantino",
+    "slug": "francesco-durantino",
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 42406,
+    "name": "Francisco de Zurbarán",
+    "slug": "francisco-de-zurbaran",
+    "birthYear": 1598,
+    "deathYear": 1664,
+    "nationality": "Spanish",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40453,
+    "name": "François Boucher",
+    "slug": "francois-boucher",
+    "birthYear": 1703,
+    "deathYear": 1770,
+    "nationality": "French",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 34811,
+    "name": "Frans Hals",
+    "slug": "frans-hals",
+    "birthYear": 1575,
+    "deathYear": 1666,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 24418,
+    "name": "Frans Snyders",
+    "slug": "frans-snyders",
+    "birthYear": 1579,
+    "deathYear": 1657,
+    "nationality": "Flemish",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 16157,
+    "name": "Franz Marc",
+    "slug": "franz-marc",
+    "birthYear": 1880,
+    "deathYear": 1916,
+    "nationality": "German",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 1854,
+    "name": "Frédéric Bazille",
+    "slug": "frederic-bazille",
+    "birthYear": 1841,
+    "deathYear": 1870,
+    "nationality": "French",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 14622,
+    "name": "Gaston Lachaise",
+    "slug": "gaston-lachaise",
+    "birthYear": 1882,
+    "deathYear": 1935,
+    "nationality": "American",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 35565,
+    "name": "George Washington Maher",
+    "slug": "george-washington-maher",
+    "birthYear": 1864,
+    "deathYear": 1926,
+    "nationality": "American",
+    "movements": [
+      "arts-and-crafts"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 33591,
+    "name": "George Wesley Bellows",
+    "slug": "george-wesley-bellows",
+    "birthYear": 1882,
+    "deathYear": 1925,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36822,
+    "name": "Gilbert Stuart",
+    "slug": "gilbert-stuart",
+    "birthYear": 1755,
+    "deathYear": 1828,
+    "nationality": "American",
+    "movements": [
+      "early-american"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 37130,
+    "name": "Giorgio Vasari",
+    "slug": "giorgio-vasari",
+    "birthYear": 1511,
+    "deathYear": 1574,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 6656,
+    "name": "Giovanni di Paolo",
+    "slug": "giovanni-di-paolo",
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36973,
+    "name": "Giovanni Domenico Tiepolo",
+    "slug": "giovanni-domenico-tiepolo",
+    "birthYear": 1727,
+    "deathYear": 1804,
+    "nationality": "Italian",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40508,
+    "name": "Giuseppe Maria Crespi",
+    "slug": "giuseppe-maria-crespi",
+    "birthYear": 1665,
+    "deathYear": 1747,
+    "nationality": "Italian",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 31914,
+    "name": "Gorham Manufacturing Company",
+    "slug": "gorham-manufacturing-company",
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36350,
+    "name": "Guido Reni",
+    "slug": "guido-reni",
+    "birthYear": 1575,
+    "deathYear": 1642,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 34049,
+    "name": "Gustave Courbet",
+    "slug": "gustave-courbet",
+    "birthYear": 1819,
+    "deathYear": 1877,
+    "nationality": "French",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 101310,
+    "name": "Hans Ludwig Kienle",
+    "slug": "hans-ludwig-kienle",
+    "birthYear": 1591,
+    "deathYear": 1653,
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 44267,
+    "name": "Harriet Hosmer",
+    "slug": "harriet-hosmer",
+    "birthYear": 1830,
+    "deathYear": 1908,
+    "nationality": "American",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 5612,
+    "name": "Henri Edmond Cross",
+    "slug": "henri-edmond-cross",
+    "birthYear": 1856,
+    "deathYear": 1910,
+    "nationality": "French",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 31094,
+    "name": "Henri Fantin-Latour",
+    "slug": "henri-fantin-latour",
+    "birthYear": 1836,
+    "deathYear": 1904,
+    "nationality": "French",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 25497,
+    "name": "Henry Ossawa Tanner",
+    "slug": "henry-ossawa-tanner",
+    "birthYear": 1859,
+    "deathYear": 1937,
+    "nationality": "American",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36319,
+    "name": "Henry Ward Ranger",
+    "slug": "henry-ward-ranger",
+    "birthYear": 1858,
+    "deathYear": 1916,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 34919,
+    "name": "Herter Brothers",
+    "slug": "herter-brothers",
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 37451,
+    "name": "Horace Pippin",
+    "slug": "horace-pippin",
+    "birthYear": 1888,
+    "deathYear": 1946,
+    "nationality": "American",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 68163,
+    "name": "Jacob Halder",
+    "slug": "jacob-halder",
+    "nationality": "English",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36071,
+    "name": "Jacob Ochtervelt",
+    "slug": "jacob-ochtervelt",
+    "birthYear": 1634,
+    "deathYear": 1682,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41354,
+    "name": "Jacob van Ruisdael",
+    "slug": "jacob-van-ruisdael",
+    "birthYear": 1623,
+    "deathYear": 1682,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 1396,
+    "name": "Jacques de Baerze",
+    "slug": "jacques-de-baerze",
+    "nationality": "Netherlandish",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 11328,
+    "name": "Jan Sanders van Hemessen",
+    "slug": "jan-sanders-van-hemessen",
+    "birthYear": 1495,
+    "deathYear": 1580,
+    "nationality": "Netherlandish",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36780,
+    "name": "Jan Steen",
+    "slug": "jan-steen",
+    "birthYear": 1626,
+    "deathYear": 1679,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 35059,
+    "name": "Jean Auguste Dominique Ingres",
+    "slug": "jean-auguste-dominique-ingres",
+    "birthYear": 1780,
+    "deathYear": 1867,
+    "nationality": "French",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 34035,
+    "name": "Jean Baptiste Camille Corot",
+    "slug": "jean-baptiste-camille-corot",
+    "birthYear": 1796,
+    "deathYear": 1875,
+    "nationality": "French",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 42368,
+    "name": "Jean Baptiste Joseph Wicar",
+    "slug": "jean-baptiste-joseph-wicar",
+    "birthYear": 1762,
+    "deathYear": 1834,
+    "nationality": "French",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 11482,
+    "name": "Jean Hey, (the Master of Moulins)",
+    "slug": "jean-hey-the-master-of-moulins",
+    "nationality": "Netherlandish",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40583,
+    "name": "Jean Honoré Fragonard",
+    "slug": "jean-honore-fragonard",
+    "birthYear": 1732,
+    "deathYear": 1806,
+    "nationality": "French",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40597,
+    "name": "Jean Louis André Théodore Géricault",
+    "slug": "jean-louis-andre-theodore-gericault",
+    "birthYear": 1791,
+    "deathYear": 1824,
+    "nationality": "French",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 14830,
+    "name": "Jean Pierre Latz",
+    "slug": "jean-pierre-latz",
+    "birthYear": 1686,
+    "deathYear": 1754,
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40895,
+    "name": "Joachim Antonisz. Wtewael",
+    "slug": "joachim-antonisz-wtewael",
+    "birthYear": 1566,
+    "deathYear": 1638,
+    "nationality": "Dutch",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40642,
+    "name": "Johan Barthold Jongkind",
+    "slug": "johan-barthold-jongkind",
+    "birthYear": 1819,
+    "deathYear": 1891,
+    "nationality": "Dutch",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 43760,
+    "name": "Johann Joachim Kändler",
+    "slug": "johann-joachim-kandler",
+    "birthYear": 1706,
+    "deathYear": 1775,
+    "nationality": "Meissen",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 34023,
+    "name": "John Constable",
+    "slug": "john-constable",
+    "birthYear": 1776,
+    "deathYear": 1837,
+    "nationality": "English",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 107195,
+    "name": "John Philip Simpson",
+    "slug": "john-philip-simpson",
+    "birthYear": 1782,
+    "deathYear": 1847,
+    "nationality": "English",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 34028,
+    "name": "John Singleton Copley",
+    "slug": "john-singleton-copley",
+    "birthYear": 1738,
+    "deathYear": 1815,
+    "nationality": "American",
+    "movements": [
+      "early-american"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 24282,
+    "name": "John Smibert",
+    "slug": "john-smibert",
+    "birthYear": 1688,
+    "deathYear": 1751,
+    "nationality": "American",
+    "movements": [
+      "early-american"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 37001,
+    "name": "John Townsend",
+    "slug": "john-townsend",
+    "birthYear": 1732,
+    "deathYear": 1809,
+    "nationality": "American",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 68273,
+    "name": "Jörg T. Sorg, the Younger",
+    "slug": "jorg-t-sorg-the-younger",
+    "birthYear": 1517,
+    "deathYear": 1603,
+    "nationality": "German",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 111891,
+    "name": "Joseph Potter",
+    "slug": "joseph-potter",
+    "birthYear": 1822,
+    "deathYear": 1904,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 77459,
+    "name": "Joshua Johnson",
+    "slug": "joshua-johnson",
+    "nationality": "American",
+    "movements": [
+      "early-american"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 43722,
+    "name": "Juan de Zurbarán",
+    "slug": "juan-de-zurbaran",
+    "birthYear": 1620,
+    "deathYear": 1649,
+    "nationality": "Spanish",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 33753,
+    "name": "Jules Breton",
+    "slug": "jules-breton",
+    "birthYear": 1827,
+    "deathYear": 1906,
+    "nationality": "French",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 49439,
+    "name": "Julie Hart Beers",
+    "slug": "julie-hart-beers",
+    "birthYear": 1834,
+    "deathYear": 1913,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 35361,
+    "name": "Kawanabe Kyôsai",
+    "slug": "kawanabe-kyosai",
+    "birthYear": 1831,
+    "deathYear": 1889,
+    "nationality": "Japanese",
+    "movements": [
+      "east-asian"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 23776,
+    "name": "Kitao Shigemasa",
+    "slug": "kitao-shigemasa",
+    "birthYear": 1739,
+    "deathYear": 1820,
+    "nationality": "Japanese",
+    "movements": [
+      "east-asian"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 35850,
+    "name": "Koloman (Kolo) Moser",
+    "slug": "koloman-kolo-moser",
+    "birthYear": 1868,
+    "deathYear": 1918,
+    "nationality": "Austrian",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 47696,
+    "name": "Lorenzo Monaco",
+    "slug": "lorenzo-monaco",
+    "birthYear": 1365,
+    "deathYear": 1428,
+    "nationality": "Italian",
+    "movements": [
+      "medieval"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 48625,
+    "name": "Louis Anquetin",
+    "slug": "louis-anquetin",
+    "birthYear": 1861,
+    "deathYear": 1932,
+    "nationality": "French",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36978,
+    "name": "Louis Comfort Tiffany",
+    "slug": "louis-comfort-tiffany",
+    "birthYear": 1848,
+    "deathYear": 1933,
+    "nationality": "American",
+    "movements": [
+      "arts-and-crafts"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 33846,
+    "name": "Luca Cambiaso",
+    "slug": "luca-cambiaso",
+    "birthYear": 1527,
+    "deathYear": 1585,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 49010,
+    "name": "Mackay Hugh Baillie Scott",
+    "slug": "mackay-hugh-baillie-scott",
+    "birthYear": 1865,
+    "deathYear": 1945,
+    "nationality": "English",
+    "movements": [
+      "arts-and-crafts"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36507,
+    "name": "Manufacture nationale de Sèvres",
+    "slug": "manufacture-nationale-de-sevres",
+    "nationality": "Sèvres",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36312,
+    "name": "Marcantonio Raimondi",
+    "slug": "marcantonio-raimondi",
+    "birthYear": 1475,
+    "deathYear": 1534,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 115812,
+    "name": "María Josefa Sánchez",
+    "slug": "maria-josefa-sanchez",
+    "nationality": "Spanish",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 31435,
+    "name": "Martin Johnson Heade",
+    "slug": "martin-johnson-heade",
+    "birthYear": 1819,
+    "deathYear": 1904,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 117942,
+    "name": "Mélanie de Comoléra",
+    "slug": "melanie-de-comolera",
+    "nationality": "French",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36695,
+    "name": "Paul Signac",
+    "slug": "paul-signac",
+    "birthYear": 1863,
+    "deathYear": 1935,
+    "nationality": "French",
+    "movements": [
+      "post-impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36253,
+    "name": "Paulus Potter",
+    "slug": "paulus-potter",
+    "birthYear": 1625,
+    "deathYear": 1654,
+    "nationality": "Dutch",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36286,
+    "name": "Pierre Paul Prud'hon",
+    "slug": "pierre-paul-prud-hon",
+    "birthYear": 1758,
+    "deathYear": 1823,
+    "nationality": "French",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 5004,
+    "name": "Pieter Codde",
+    "slug": "pieter-codde",
+    "birthYear": 1599,
+    "deathYear": 1678,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 44280,
+    "name": "Pietro Tacca",
+    "slug": "pietro-tacca",
+    "birthYear": 1577,
+    "deathYear": 1640,
+    "nationality": "Italian",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 43370,
+    "name": "Raphaelle Peale",
+    "slug": "raphaelle-peale",
+    "birthYear": 1774,
+    "deathYear": 1825,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40769,
+    "name": "Rembrandt van Rijn",
+    "slug": "rembrandt-van-rijn",
+    "birthYear": 1606,
+    "deathYear": 1669,
+    "nationality": "Dutch",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41019,
+    "name": "Richard Westall",
+    "slug": "richard-westall",
+    "birthYear": 1765,
+    "deathYear": 1836,
+    "nationality": "English",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 28375,
+    "name": "Rogier van der Weyden",
+    "slug": "rogier-van-der-weyden",
+    "birthYear": 1399,
+    "deathYear": 1464,
+    "nationality": "Netherlandish",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 30703,
+    "name": "Rosalba Carriera",
+    "slug": "rosalba-carriera",
+    "birthYear": 1673,
+    "deathYear": 1757,
+    "nationality": "Italian",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 5103,
+    "name": "Samuel Colman",
+    "slug": "samuel-colman",
+    "birthYear": 1832,
+    "deathYear": 1920,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 50571,
+    "name": "Sarah Bernhardt",
+    "slug": "sarah-bernhardt",
+    "birthYear": 1844,
+    "deathYear": 1923,
+    "nationality": "French",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41499,
+    "name": "Sebastiano del Piombo",
+    "slug": "sebastiano-del-piombo",
+    "birthYear": 1480,
+    "deathYear": 1547,
+    "nationality": "Italian",
+    "movements": [
+      "renaissance"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 74479,
+    "name": "Simon Willard and Sons",
+    "slug": "simon-willard-and-sons",
+    "nationality": "American",
+    "movements": [
+      "early-american"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40771,
+    "name": "Sir Joshua Reynolds",
+    "slug": "sir-joshua-reynolds",
+    "birthYear": 1723,
+    "deathYear": 1792,
+    "nationality": "English",
+    "movements": [
+      "rococo-neoclassicism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 41039,
+    "name": "Sir Thomas Lawrence",
+    "slug": "sir-thomas-lawrence",
+    "birthYear": 1769,
+    "deathYear": 1830,
+    "nationality": "English",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 22018,
+    "name": "Theodore Robinson",
+    "slug": "theodore-robinson",
+    "birthYear": 1852,
+    "deathYear": 1896,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 36476,
+    "name": "Théodore Rousseau",
+    "slug": "theodore-rousseau",
+    "birthYear": 1812,
+    "deathYear": 1867,
+    "nationality": "French",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 7353,
+    "name": "Thomas Eakins",
+    "slug": "thomas-eakins",
+    "birthYear": 1844,
+    "deathYear": 1916,
+    "nationality": "American",
+    "movements": [
+      "realism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 60819,
+    "name": "Vilhelm Hammershøi",
+    "slug": "vilhelm-hammersh-i",
+    "birthYear": 1864,
+    "deathYear": 1916,
+    "nationality": "Danish",
+    "movements": [
+      "modernism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 40608,
+    "name": "William James Glackens",
+    "slug": "william-james-glackens",
+    "birthYear": 1870,
+    "deathYear": 1938,
+    "nationality": "American",
+    "movements": [
+      "impressionism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 35854,
+    "name": "William Sidney Mount",
+    "slug": "william-sidney-mount",
+    "birthYear": 1807,
+    "deathYear": 1868,
+    "nationality": "American",
+    "movements": [
+      "romanticism"
+    ],
+    "artworkCount": 1
+  },
+  {
+    "aicId": 81339,
+    "name": "Workshop of Rembrandt van Rijn",
+    "slug": "workshop-of-rembrandt-van-rijn",
+    "birthYear": 1606,
+    "deathYear": 1669,
+    "nationality": "Dutch",
+    "movements": [
+      "baroque"
+    ],
+    "artworkCount": 1
+  }
+]

@@ -1,0 +1,23 @@
+# Local Postgres for the Payload demo. Runs on 5433 so it doesn't collide
+# with the Interakt backend's own Postgres on 5432.
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: interakt-payload-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: payload
+      POSTGRES_PASSWORD: payload
+      POSTGRES_DB: payload
+    ports:
+      - '5433:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U payload -d payload']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:
