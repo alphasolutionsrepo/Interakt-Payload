@@ -20,7 +20,9 @@
     "db:down": "docker compose down",
     "data:fetch": "tsx scripts/fetch-aic.ts",
     "seed": "cross-env NODE_OPTIONS=--no-deprecation payload run scripts/seed.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "interakt:sample": "cross-env NODE_OPTIONS=--no-deprecation payload run scripts/interakt-sample.ts",
+    "interakt:sync": "cross-env NODE_OPTIONS=--no-deprecation payload run scripts/interakt-sync.ts"
   },
   "dependencies": {
     "@payloadcms/db-postgres": "3.90.2",

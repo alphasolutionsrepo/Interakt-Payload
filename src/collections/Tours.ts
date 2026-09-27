@@ -3,6 +3,7 @@ import type { CollectionConfig } from 'payload'
 import { anyone, authenticated } from '@/access/public'
 import { slug } from '@/fields/slug'
 import { revalidateAfterChange, revalidateAfterDelete } from '@/hooks/revalidate'
+import { interaktAfterChange, interaktAfterDelete } from '@/interakt/hooks'
 
 export const Tours: CollectionConfig = {
   slug: 'tours',
@@ -13,7 +14,7 @@ export const Tours: CollectionConfig = {
   },
   access: { read: anyone, create: authenticated, update: authenticated, delete: authenticated },
   defaultSort: 'title',
-  hooks: { afterChange: [revalidateAfterChange], afterDelete: [revalidateAfterDelete] },
+  hooks: { afterChange: [revalidateAfterChange, interaktAfterChange('tours')], afterDelete: [revalidateAfterDelete, interaktAfterDelete('tours')] },
   fields: [
     { name: 'title', type: 'text', required: true },
     { name: 'intro', type: 'textarea', required: true },

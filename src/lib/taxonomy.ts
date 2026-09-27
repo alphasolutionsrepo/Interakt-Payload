@@ -67,6 +67,13 @@ export const COLOR_FAMILIES = opts([
   ['white', 'White'],
 ])
 
+export const STORY_CATEGORIES = opts([
+  ['essay', 'Essay'],
+  ['close-look', 'Close Look'],
+  ['artist-profile', 'Artist Profile'],
+  ['collection-notes', 'Collection Notes'],
+])
+
 /** Movements are a collection (they have pages and descriptions); these are their slugs. */
 export const MOVEMENTS = opts([
   ['ancient-egypt', 'Ancient Egypt'],

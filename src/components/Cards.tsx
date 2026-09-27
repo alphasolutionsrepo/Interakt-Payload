@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import type { Exhibition, Story, Tour } from '@/payload-types'
 import { asMedia, exhibitionDates, exhibitionStatus, formatDate, routes } from '@/lib/format'
-import { STORY_CATEGORIES } from '@/collections/Stories'
+import { STORY_CATEGORIES } from '@/lib/taxonomy'
 
 import { ArtImage } from './ArtImage'
 

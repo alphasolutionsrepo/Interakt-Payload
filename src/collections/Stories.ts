@@ -3,14 +3,9 @@ import type { CollectionConfig } from 'payload'
 import { authenticated, publishedOrAuthenticated } from '@/access/public'
 import { slug } from '@/fields/slug'
 import { revalidateAfterChange, revalidateAfterDelete } from '@/hooks/revalidate'
+import { interaktAfterChange, interaktAfterDelete } from '@/interakt/hooks'
 import { readingMinutes } from '@/lib/lexical'
-
-export const STORY_CATEGORIES = [
-  { label: 'Essay', value: 'essay' },
-  { label: 'Close Look', value: 'close-look' },
-  { label: 'Artist Profile', value: 'artist-profile' },
-  { label: 'Collection Notes', value: 'collection-notes' },
-]
+import { STORY_CATEGORIES } from '@/lib/taxonomy'
 
 export const Stories: CollectionConfig = {
   slug: 'stories',
@@ -28,8 +23,8 @@ export const Stories: CollectionConfig = {
   versions: { drafts: true, maxPerDoc: 20 },
   defaultSort: '-publishedAt',
   hooks: {
-    afterChange: [revalidateAfterChange],
-    afterDelete: [revalidateAfterDelete],
+    afterChange: [revalidateAfterChange, interaktAfterChange('stories')],
+    afterDelete: [revalidateAfterDelete, interaktAfterDelete('stories')],
     beforeChange: [
       ({ data }) => {
         if (data.body) data.readingTime = readingMinutes(data.body)

@@ -3,6 +3,7 @@ import type { CollectionConfig } from 'payload'
 import { anyone, authenticated } from '@/access/public'
 import { slug } from '@/fields/slug'
 import { revalidateAfterChange, revalidateAfterDelete } from '@/hooks/revalidate'
+import { interaktAfterChange, interaktAfterDelete } from '@/interakt/hooks'
 import { centuryLabel, eraFor } from '@/lib/normalize'
 import { ARTWORK_TYPES, COLOR_FAMILIES, DEPARTMENTS, ERAS, REGIONS } from '@/lib/taxonomy'
 
@@ -22,8 +23,8 @@ export const Artworks: CollectionConfig = {
   },
   defaultSort: 'title',
   hooks: {
-    afterChange: [revalidateAfterChange],
-    afterDelete: [revalidateAfterDelete],
+    afterChange: [revalidateAfterChange, interaktAfterChange('artworks')],
+    afterDelete: [revalidateAfterDelete, interaktAfterDelete('artworks')],
     beforeChange: [
       // Derived facets stay consistent with the dates when an editor changes them.
       ({ data }) => {

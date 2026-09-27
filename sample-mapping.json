@@ -1,0 +1,69 @@
+{
+  "id": "artwork-120",
+  "type": "artwork",
+  "typeLabel": "Artwork",
+  "title": "Rinaldo and Armida in Her Garden",
+  "slug": "rinaldo-and-armida-in-her-garden",
+  "url": "http://localhost:3003/artworks/rinaldo-and-armida-in-her-garden",
+  "summary": "This is the second of four large paintings in a sequence by Giovanni Battista Tiepolo depicting the crusader Rinaldo and the sorceress Armida. Here Armida has abducted Rinaldo and carried him away to her magical garden.",
+  "body": "This is the second of four large paintings in a sequence by Giovanni Battista Tiepolo depicting the crusader Rinaldo and the sorceress Armida. Here Armida has abducted Rinaldo and carried him away to her magical garden. She looks into a magic mirror while the knight sits enthralled, gazing into her eyes. Meanwhile, Rinaldo’s two companions, Carlo and Ubaldo, arrive to persuade him to return to their quest to seize control of Jerusalem.\n\nOil on canvas. 186.7 × 259.4 cm (73 1/2 × 102 1/8 in.); Framed: 194.3 × 270.5 × 7.9 cm (76 1/2 × 106 1/2 × 3 1/8 in.). Giovanni Battista Tiepolo, c. 1742–45.",
+  "imageUrl": "http://localhost:3003/api/media/file/aic-16485-800x556.jpg",
+  "imageAlt": "A work made of oil on canvas.",
+  "artist": "Giovanni Battista Tiepolo",
+  "nationality": "Italian",
+  "movements": [
+    "Baroque"
+  ],
+  "subjects": [
+    "Flowers & Gardens",
+    "Trees & Plants",
+    "Myth & Gods",
+    "Women",
+    "War & Weapons",
+    "Sky & Weather",
+    "Love",
+    "Landscapes"
+  ],
+  "department": "European Painting & Sculpture",
+  "artworkType": "Painting",
+  "era": "Early Modern (1400–1799)",
+  "century": "18th century",
+  "region": "Europe",
+  "country": "Italy",
+  "colorFamily": "Grey",
+  "isOnView": true,
+  "yearStart": 1742,
+  "yearEnd": 1745,
+  "dateDisplay": "c. 1742–45",
+  "medium": "Oil on canvas",
+  "dimensions": "186.7 × 259.4 cm (73 1/2 × 102 1/8 in.); Framed: 194.3 × 270.5 × 7.9 cm (76 1/2 × 106 1/2 × 3 1/8 in.)",
+  "creditLine": "Bequest of James Deering",
+  "gallery": "Gallery 215",
+  "materials": [
+    "oil paint",
+    "canvas"
+  ],
+  "techniques": [
+    "oil painting"
+  ],
+  "updatedAt": "2026-09-26T22:08:59.800Z",
+  "culture": "Ancient Greek",
+  "birthYear": 1839,
+  "deathYear": 1899,
+  "artworkCount": 2,
+  "artworkTitles": [
+    "Watering Place at Marly",
+    "The Seine at Port-Marly, Piles of Sand"
+  ],
+  "category": "Essay",
+  "author": "Ines Halvorsen",
+  "readingTime": 4,
+  "publishedAt": "2026-09-03T00:00:00.000Z",
+  "venue": "Lumen",
+  "startDate": "2026-11-06T00:00:00.000Z",
+  "endDate": "2027-04-11T00:00:00.000Z",
+  "theme": "Movements",
+  "durationMinutes": 30,
+  "stopCount": 9,
+  "period": "c. 12th–20th century"
+}

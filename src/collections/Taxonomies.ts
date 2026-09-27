@@ -3,6 +3,7 @@ import type { CollectionConfig } from 'payload'
 import { anyone, authenticated } from '@/access/public'
 import { slug } from '@/fields/slug'
 import { revalidateAfterChange, revalidateAfterDelete } from '@/hooks/revalidate'
+import { interaktAfterChange, interaktAfterDelete } from '@/interakt/hooks'
 
 const hooks = { afterChange: [revalidateAfterChange], afterDelete: [revalidateAfterDelete] }
 const access = { read: anyone, create: authenticated, update: authenticated, delete: authenticated }
@@ -11,7 +12,10 @@ export const Movements: CollectionConfig = {
   slug: 'movements',
   admin: { useAsTitle: 'title', group: 'Taxonomy', defaultColumns: ['title', 'period'] },
   access,
-  hooks,
+  hooks: {
+    afterChange: [revalidateAfterChange, interaktAfterChange('movements')],
+    afterDelete: [revalidateAfterDelete, interaktAfterDelete('movements')],
+  },
   defaultSort: 'title',
   fields: [
     { name: 'title', type: 'text', required: true },

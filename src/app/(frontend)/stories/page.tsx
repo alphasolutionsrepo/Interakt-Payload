@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import { StoryCard } from '@/components/Cards'
 import { PageHeader } from '@/components/Section'
-import { STORY_CATEGORIES } from '@/collections/Stories'
+import { STORY_CATEGORIES } from '@/lib/taxonomy'
 import { getStories } from '@/lib/queries'
 
 export const metadata: Metadata = { title: 'Stories' }

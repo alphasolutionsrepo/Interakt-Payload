@@ -31,6 +31,7 @@ cp .env.example .env        # set PAYLOAD_SECRET: openssl rand -hex 32
 npm run db:up               # Postgres 16 on localhost:5433
 npm run data:fetch          # AIC data → data/aic/, images → data/aic/images/ (~470 MB, a few minutes)
 npm run seed                # loads everything into Payload (safe to re-run)
+npm run interakt:sync       # pushes all ~900 documents into the Interakt index (see below)
 npm run dev                 # http://localhost:3003
 ```
 
@@ -123,10 +124,12 @@ Any content change in the admin revalidates the whole site through an `afterChan
 | `npm run db:up` / `db:down` | Start / stop Postgres |
 | `npm run data:fetch` | Build `data/aic/` from the AIC API and download images (`-- --refresh` to re-pull raw data) |
 | `npm run seed` | Upsert all content into Payload (idempotent) |
+| `npm run interakt:sample` | Write `sample-documents.json` / `sample-mapping.json` for creating the Interakt index |
+| `npm run interakt:sync` | Full sync to Interakt, removing stale documents (`-- --allow-empty` to permit emptying the index) |
 | `npm run generate:types` | Regenerate `src/payload-types.ts` |
 | `npm run generate:importmap` | Regenerate the admin import map after adding custom components |
 | `npm run typecheck` / `lint` | |
-| `npm run test:int` | Vitest: normalizer, Markdown → Lexical, facets (needs Postgres running) |
+| `npm run test:int` | Vitest: normalizer, Markdown → Lexical, facets, Interakt mappers (needs Postgres running) |
 
 ## Database
 
@@ -134,9 +137,118 @@ In development Payload **pushes the schema** automatically. Before deploying any
 migrations with `npm run payload migrate:create`. The data lives in the `pgdata` Docker volume,
 and uploaded images in `/media` (gitignored).
 
-## Phase 2: Interakt
+## Interakt index
 
-- Port `ingest.ts`, `search-client.ts`, `useInteraktSearch.ts` and `DropinWidget.tsx` from `../Interakt-Sanity`.
-- Payload `afterChange` / `afterDelete` hooks replace the Sanity webhook, so no tunnel is needed.
-- Documents are built from the clean facet fields, plus Lexical → plain text (`lexicalToPlainText`) for bodies.
-- Skip story drafts (`_status !== 'published'`).
+All content types go into **one index**. They share a single flat document shape, built by
+[src/interakt/toDocument.ts](src/interakt/toDocument.ts):
+- Scalars and arrays of strings only.
+- The same field names across types, so a facet like `movements` covers artworks, artists,
+  stories and movements alike.
+- Facet values are human-readable labels.
+- Fields a type doesn't have are omitted.
+- `id` is `<type>-<payload id>`, e.g. `artwork-179`.
+
+```bash
+npm run interakt:sample     # writes sample-documents.json and sample-mapping.json
+```
+
+**Paste `sample-mapping.json` into Interakt's Configure Mappings screen, not the array.** The
+screen only reads the *first* object of a pasted array, so fields the first document lacks never
+get mapped. `sample-mapping.json` is one object holding all 48 fields, each with a real value.
+`sample-documents.json` keeps the real per-type documents for reference.
+
+This picks the smallest set of real documents that together use every field: 7 documents, all 6
+types, 48 fields. After pasting, set:
+
+| Field | Type | On | Mapping |
+|---|---|---|---|
+| `id` | string | all | key |
+| `type`, `typeLabel` | string | all | facet (`typeLabel`) |
+| `title` | string | all | searchable, **boost** |
+| `slug`, `url`, `imageUrl`, `imageAlt` | string | all | include in response |
+| `summary`, `body` | text | all | searchable |
+| `artist`, `culture`, `nationality` | string | artwork (+ artist: `nationality`) | facet |
+| `movements`, `subjects` | string[] | artwork, artist, story, movement | facet |
+| `department`, `artworkType`, `era`, `century`, `region`, `country`, `colorFamily` | string | artwork | facet |
+| `isOnView` | boolean | artwork | facet |
+| `yearStart`, `yearEnd` | number (negative = BCE) | artwork | filter / sort |
+| `dateDisplay`, `medium`, `dimensions`, `creditLine`, `gallery` | string | artwork | searchable / include |
+| `materials`, `techniques` | string[] | artwork | facet |
+| `birthYear`, `deathYear` | number | artist | filter |
+| `category`, `author` | string | story | facet |
+| `readingTime`, `publishedAt` | number, date | story | sort |
+| `venue` | string | exhibition | facet |
+| `startDate`, `endDate` | date | exhibition | filter |
+| `theme` | string | tour | facet |
+| `durationMinutes`, `stopCount` | number | tour | include |
+| `period` | string | movement | include |
+| `artworkCount` | number | artist, exhibition, tour, movement | include / sort |
+| `artworkTitles` | string[] | artist, story, exhibition, tour, movement | searchable |
+| `updatedAt` | date | all | sort |
+
+**Deliberately not indexed:**
+- subjects and media as separate documents
+- an exhibition "status" field, which would go out of date (filter on the dates instead)
+- the colour hex value
+
+**Two gotchas:**
+- Image URLs point at `NEXT_PUBLIC_SITE_URL`, which defaults to localhost. That is fine for
+  display in the browser, but Interakt's server can't fetch them.
+- Join fields don't populate the joined artworks' images, so artist and movement documents take a
+  `cover` image from the caller.
+
+### Ingestion
+
+Set these in `.env`:
+- `INTERAKT_BASE_URL`
+- `INTERAKT_INDEX_ID`
+- `INTERAKT_INGESTION_KEY` (a key with write + delete on the index)
+- `NEXT_PUBLIC_SITE_URL`
+
+Everything is server-side, since the ingestion API sends no CORS headers.
+
+- **Live hooks** ([src/interakt/hooks.ts](src/interakt/hooks.ts)): `afterChange` / `afterDelete`
+  on artworks, artists, stories, exhibitions, tours and movements.
+  - Payload runs in-process, so unlike the Sanity demo there is no webhook, signature or tunnel.
+  - Stories are indexed from their **published** version. Saving a draft leaves search alone, and
+    unpublishing removes the story.
+  - An artwork change also refreshes its artist and movement, whose work counts and title lists
+    include it.
+  - Hook failures are logged but never block the editor's save.
+  - The hooks are skipped when Interakt isn't configured, and for the seed (`context.seeding`).
+- **Full sync** (`npm run interakt:sync`,
+  [scripts/interakt-sync.ts](scripts/interakt-sync.ts)): builds every document
+  ([src/interakt/indexer.ts](src/interakt/indexer.ts)), uploads them in batches of 250, then
+  deletes anything in the index that Payload no longer has. Run it after `npm run seed`.
+
+**Gotchas:**
+- **Interakt's endpoints don't match its docs.** Ingestion is
+  `POST /api/search-indexes/{id}/documents` (no `/v1`) with `Authorization: Bearer ik_…`, not
+  `X-Api-Key`.
+- **`GET …/documents` returns only `uniqueId` and `updatedAt` per document.** The full documents
+  are stored; the listing is just a slim view.
+- **Editing a stop's artwork doesn't cascade.** Changing an artwork's *title* does not refresh the
+  stories, tours or exhibitions whose `artworkTitles` include it, so re-run `interakt:sync` after
+  bulk edits.
+
+### Search and chat
+
+- **`/search`** ([src/components/search/SearchExperience.tsx](src/components/search/SearchExperience.tsx))
+  calls the Interakt REST API directly, with the search experience token:
+  - `POST /api/v1/search` for results and facets
+  - `/autocomplete` for suggestions
+  - `/summarize` for an AI summary, streamed over SSE
+- The query is kept in `?q=`, so searches can be shared.
+- Result links are made relative, so they work on any host.
+- The client, the hooks and `DropinWidget` are ported from `../Interakt-Sanity`.
+- **Drop-in widgets:**
+  - The modal search widget in the header, and the floating "Ask Lumen" chat on every page.
+  - Both are loaded from `${NEXT_PUBLIC_INTERAKT_BASE_URL}/embed/v1/widgets.js` and set up
+    through `window.SearchDropinUI` / `window.ChatDropinUI`.
+  - The `<script data-token>` snippet in the Interakt docs doesn't match what ships.
+
+**Index gotcha:** number fields must **not** be marked *Searchable*. Interakt puts searchable
+fields into Elasticsearch's text query, and a numeric field there fails every text query with
+`failed to create query: For input string: "monet"`. Numeric queries like "1884" still work, which
+makes it easy to miss. Keep `yearStart`, `yearEnd`, `birthYear`, `deathYear` and `artworkCount`
+as filter/sort only.

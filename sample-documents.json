@@ -1,0 +1,239 @@
+[
+  {
+    "id": "artwork-120",
+    "type": "artwork",
+    "typeLabel": "Artwork",
+    "title": "Rinaldo and Armida in Her Garden",
+    "slug": "rinaldo-and-armida-in-her-garden",
+    "url": "http://localhost:3003/artworks/rinaldo-and-armida-in-her-garden",
+    "summary": "This is the second of four large paintings in a sequence by Giovanni Battista Tiepolo depicting the crusader Rinaldo and the sorceress Armida. Here Armida has abducted Rinaldo and carried him away to her magical garden.",
+    "body": "This is the second of four large paintings in a sequence by Giovanni Battista Tiepolo depicting the crusader Rinaldo and the sorceress Armida. Here Armida has abducted Rinaldo and carried him away to her magical garden. She looks into a magic mirror while the knight sits enthralled, gazing into her eyes. Meanwhile, Rinaldo’s two companions, Carlo and Ubaldo, arrive to persuade him to return to their quest to seize control of Jerusalem.\n\nOil on canvas. 186.7 × 259.4 cm (73 1/2 × 102 1/8 in.); Framed: 194.3 × 270.5 × 7.9 cm (76 1/2 × 106 1/2 × 3 1/8 in.). Giovanni Battista Tiepolo, c. 1742–45.",
+    "imageUrl": "http://localhost:3003/api/media/file/aic-16485-800x556.jpg",
+    "imageAlt": "A work made of oil on canvas.",
+    "artist": "Giovanni Battista Tiepolo",
+    "nationality": "Italian",
+    "movements": [
+      "Baroque"
+    ],
+    "subjects": [
+      "Flowers & Gardens",
+      "Trees & Plants",
+      "Myth & Gods",
+      "Women",
+      "War & Weapons",
+      "Sky & Weather",
+      "Love",
+      "Landscapes"
+    ],
+    "department": "European Painting & Sculpture",
+    "artworkType": "Painting",
+    "era": "Early Modern (1400–1799)",
+    "century": "18th century",
+    "region": "Europe",
+    "country": "Italy",
+    "colorFamily": "Grey",
+    "isOnView": true,
+    "yearStart": 1742,
+    "yearEnd": 1745,
+    "dateDisplay": "c. 1742–45",
+    "medium": "Oil on canvas",
+    "dimensions": "186.7 × 259.4 cm (73 1/2 × 102 1/8 in.); Framed: 194.3 × 270.5 × 7.9 cm (76 1/2 × 106 1/2 × 3 1/8 in.)",
+    "creditLine": "Bequest of James Deering",
+    "gallery": "Gallery 215",
+    "materials": [
+      "oil paint",
+      "canvas"
+    ],
+    "techniques": [
+      "oil painting"
+    ],
+    "updatedAt": "2026-09-26T22:08:59.800Z"
+  },
+  {
+    "id": "artwork-1",
+    "type": "artwork",
+    "typeLabel": "Artwork",
+    "title": "Column-Krater (Mixing Bowl)",
+    "slug": "column-krater-mixing-bowl",
+    "url": "http://localhost:3003/artworks/column-krater-mixing-bowl",
+    "summary": "The Greeks diluted their wine with water, and it was the master of ceremonies at the symposium, or drinking party, who determined the ratio of wine to water. Both were poured into a large mixing bowl like this one decorated with a mythological scene.",
+    "body": "The Greeks diluted their wine with water, and it was the master of ceremonies at the symposium, or drinking party, who determined the ratio of wine to water. Both were poured into a large mixing bowl like this one decorated with a mythological scene. Salmoneus, king of Elis, pretended to be Zeus by imitating the sound of thunder and the appearance of lightning. Angered by this, Zeus here strikes Salmoneus dead with a lightning bolt.\n\nterracotta, red-figure. 46.5 × 45.6 × 38 cm (18 1/4 × 18 × 15 in.). Ancient Greek, about 460 BCE.",
+    "imageUrl": "http://localhost:3003/api/media/file/aic-164-800x983.jpg",
+    "imageAlt": "A work made of terracotta, red-figure.",
+    "culture": "Ancient Greek",
+    "movements": [
+      "Ancient Greece"
+    ],
+    "subjects": [
+      "Myth & Gods",
+      "Food & Drink"
+    ],
+    "department": "Greece, Rome & Byzantium",
+    "artworkType": "Vessels & Ceramics",
+    "era": "Ancient (before 500)",
+    "century": "5th century BCE",
+    "region": "Europe",
+    "country": "Greece",
+    "colorFamily": "Brown",
+    "isOnView": false,
+    "yearStart": -460,
+    "yearEnd": -460,
+    "dateDisplay": "about 460 BCE",
+    "medium": "terracotta, red-figure",
+    "dimensions": "46.5 × 45.6 × 38 cm (18 1/4 × 18 × 15 in.)",
+    "creditLine": "Gift of Philip D. Armour and Charles L. Hutchinson",
+    "materials": [
+      "terracotta",
+      "ceramic"
+    ],
+    "updatedAt": "2026-09-26T22:08:59.284Z"
+  },
+  {
+    "id": "artist-29",
+    "type": "artist",
+    "typeLabel": "Artist",
+    "title": "Alfred Sisley",
+    "slug": "alfred-sisley",
+    "url": "http://localhost:3003/artists/alfred-sisley",
+    "summary": "Alfred Sisley (1839–1899) was born in Paris to English parents and remained a British citizen all his life, although he lived and worked almost entirely in France.",
+    "body": "Alfred Sisley (1839–1899) was born in Paris to English parents and remained a British citizen all his life, although he lived and worked almost entirely in France. He studied in the studio of Charles Gleyre, where he met Monet, Renoir and Bazille, and became one of the founding members of the Impressionist group.\nSisley devoted himself almost exclusively to landscape, especially the rivers, villages and changing skies of the Île-de-France. His family's business collapsed after the Franco-Prussian War, and he spent much of his career in financial hardship, moving between villages west and south of Paris.\nThe collection's two paintings date from 1875, when he lived in Marly-le-Roi. Watering Place at Marly shows the pool beside his home, while The Seine at Port-Marly, Piles of Sand captures workers dredging the river, a reminder that Impressionist landscapes often included modern labor and industry. Sisley later settled in Moret-sur-Loing, where he died in 1899, shortly before his work began to achieve real market success.",
+    "imageUrl": "http://localhost:3003/api/media/file/aic-37741-800x560.jpg",
+    "imageAlt": "A work made of oil on canvas.",
+    "nationality": "British",
+    "movements": [
+      "Impressionism"
+    ],
+    "birthYear": 1839,
+    "deathYear": 1899,
+    "artworkCount": 2,
+    "artworkTitles": [
+      "Watering Place at Marly",
+      "The Seine at Port-Marly, Piles of Sand"
+    ],
+    "updatedAt": "2026-09-26T22:08:58.794Z"
+  },
+  {
+    "id": "story-17",
+    "type": "story",
+    "typeLabel": "Story",
+    "title": "Toward Abstraction",
+    "slug": "toward-abstraction-kandinsky-mondrian",
+    "url": "http://localhost:3003/stories/toward-abstraction-kandinsky-mondrian",
+    "summary": "Kandinsky's troika and cannons, Mondrian's Dutch farm and tilted lozenge: two very different paths from the visible world to pure colour, line and form.",
+    "body": "Kandinsky's troika and cannons, Mondrian's Dutch farm and tilted lozenge: two very different paths from the visible world to pure colour, line and form.\n\nIn the years just before and after the First World War, a handful of European painters took one of the most radical steps in the history of art. They let go of the depicted world. Instead of painting a landscape, a figure or a bowl of fruit, they made paintings whose subject was colour, line and form themselves. Two of the pioneers, Vasily Kandinsky and Piet Mondrian, are represented in the collection by works that allow us to follow their journeys step by step. What is striking is how differently they travelled, and how similar their goals turned out to be.\nKandinsky: colour as sound\nVasily Kandinsky (1866–1944) came to painting relatively late, after training in law in Moscow, and settled in Munich. There he became a founding member of the Blaue Reiter (Blue Rider), a loose alliance of artists who believed that colours and forms had a spiritual and emotional power of their own, and who looked for inspiration to folk art, medieval art and art from outside Europe.\nPainting with Troika, dated January 18, 1911, shows him in transition. Painted on cardboard and set in a frame the artist painted himself, it still contains recognizable motifs: a three-horse sleigh, the troika of Russian folk tales and memory, rushing across a landscape. But the forms are dissolving. Colour spills beyond its outlines, and the horses become arcs and dashes of energy.\nTwo years later, Improvisation No. 30 (Cannons) (1913) goes much further. In his book Concerning the Spiritual in Art (1912), Kandinsky argued for a painting that would move beyond imitation and act directly on the viewer's inner life, as music does. Between 1910 and 1914 he painted a series of \"Improvisations\", which he described as spontaneous expressions of inner feeling. The musical term is deliberate. In this canvas, colours clash and swirl across the surface. Yet a few images still surface: at lower right, the cannons of the title fire puffs of smoke, and buildings tilt as if shaken. Painted in 1913, on the eve of the war, the work can seem prophetic, though Kandinsky himself resisted reading it too literally.\nKandinsky's example resonated widely. His Blaue Reiter colleague Franz Marc painted The Bewitched Mill (1913), where the houses and mill on the left meet a lyrical zone of trees and animals, all bound together in strong, non-naturalistic colour. The American Marsden Hartley, working in Berlin, painted Movement (1913) in the same year, a canvas that aims, like Kandinsky's work, at the condition of music.\nMondrian: the truth of the straight line\nPiet Mondrian (1872–1944) arrived at abstraction by a completely different route: not through colour set free but through structure distilled. He began as a landscape painter in the Netherlands, and the flat Dutch countryside, with its horizon lines, canals and trees, stayed with him even after he left recognizable subjects behind.\nFarm near Duivendrecht (about 1916) shows a motif he returned to again and again. He first sketched this farm, set behind trees and reflected in water, around 1905, but many of the related works, of which about twenty are known, date from the years of the First World War, when he was already experimenting with abstraction. It is as if he kept returning to a familiar place to test what he had learned: the horizontals of the water and ground, the verticals of the trunks, the balance between them.\nIn 1917 Mondrian joined the Dutch movement De Stijl (The Style), and developed the vocabulary for which he is famous: an off-white ground divided by black lines, with a few blocks of primary colour. Lozenge Composition with Yellow, Black, Blue, Red, and Gray (1921) turns a square canvas on its point so that it hangs as a diamond. The lines inside remain strictly horizontal and vertical, but the edges of the canvas are diagonal, and the grid appears to continue beyond the frame. The effect is both stable and dynamic.\nComposition (No. 1) Gray-Red (1935) comes from his mature years, when he lived in Paris. As its title suggests, the palette is pared down to grey and red, and the black lines carry the composition. What looks simple is the result of long adjustment: Mondrian constantly repositioned lines and altered the width of bands in search of exact equilibrium.\nKandinsky freed colour to sound like music. Mondrian stripped form down to find a lasting order. Both believed abstraction could speak a universal language.\nWhy abstraction?\nFor both artists, abstraction was not an escape from meaning but a way to reach a deeper one. Kandinsky, influenced by spiritual thought, hoped painting could produce \"vibrations in the soul\". Mondrian believed that a balanced relation of straight lines and pure colours could express a universal harmony, and after the devastation of the war, he and his De Stijl colleagues hoped such art might contribute to a more harmonious society.\nTheir paths are almost opposite. One is intuitive, turbulent and colourful; the other is disciplined, calm and reduced. Yet both began with the visible world, a sleigh in the snow, a farm by the water, and both arrived at pictures whose subject is the act of seeing and feeling itself.\nHow to look\nWhen you study these works in the collection, try looking at them in chronological order. With Kandinsky, hunt for the last traces of objects, such as horses, cannons and hills, and notice how colour escapes them. With Mondrian, follow the lines to the edges of the canvas and ask whether the composition stops there or seems to continue. Then step back, and let the painting work the way both artists hoped it would: directly, without needing to be a picture of anything at all.",
+    "imageUrl": "http://localhost:3003/api/media/file/aic-109819-800x800.jpg",
+    "imageAlt": "A square white tile, rotated 90 degrees, crossed by black lines intersecting at 90-degree angles. A few of the shapes thus formed—some partial squares, some rectangles—are colored in a single shade of yellow, blue, black, or red.",
+    "category": "Essay",
+    "author": "Ines Halvorsen",
+    "readingTime": 4,
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "movements": [
+      "Modernism"
+    ],
+    "subjects": [
+      "Landscapes",
+      "Music & Dance"
+    ],
+    "artworkTitles": [
+      "Painting with Troika",
+      "Improvisation No. 30 (Cannons)",
+      "Farm near Duivendrecht",
+      "Composition (No. 1) Gray-Red",
+      "The Bewitched Mill",
+      "Movement"
+    ],
+    "updatedAt": "2026-09-26T22:09:02.909Z"
+  },
+  {
+    "id": "exhibition-15",
+    "type": "exhibition",
+    "typeLabel": "Exhibition",
+    "title": "The Art of Adornment",
+    "slug": "the-art-of-adornment",
+    "url": "http://localhost:3003/exhibitions/the-art-of-adornment",
+    "summary": "Earrings, eye paint, gold pectorals, silver belts and painted finery: 3,500 years of how people have decorated themselves, and why it mattered.",
+    "body": "Earrings, eye paint, gold pectorals, silver belts and painted finery: 3,500 years of how people have decorated themselves, and why it mattered.\n\nWhat we wear says who we are, or who we want to be. The Art of Adornment explores personal decoration across the collection, from Egyptian glass earrings and kohl jars to Andean gold, Navajo silver and the painted silks and chains of European portraiture. Some of these objects were made for beauty, some for status and some for protection, and many for all three at once.\nMade to be worn\nIn New Kingdom Egypt, men, women and children of every social class wore earrings. The collection holds a matched pair of blue glass hoops, made around 1400–1295 BCE by wrapping hot glass around a rod and fusing it with a twisted cane of white and black.\nEgyptians also lined their eyes with kohl, both for beauty and, it seems, to cut the glare of the North African sun, storing it in small containers like a travertine jar that was buried with its owner for use in the afterlife. Around the Mediterranean, a gold Greek earring ends in a tiny dolphin's head, and a Roman necklace of the second or third century hangs an emerald from a finely woven chain, fastened with a garnet rosette that only an upswept hairstyle would reveal.\nMirrors and meaning\nAdornment starts with looking at yourself. An Egyptian bronze hand mirror joins its disk to a papyrus-shaped handle, evoking the sun rising from the marsh; the Egyptian words for mirror and life sounded alike. An Etruscan mirror of the third century BCE has a handle in the form of a winged Lasa, an attendant of the goddess of love.\nIn the ancient Americas, ornament signalled cosmic as well as social rank. A Chavín gold pectoral of about 500 BCE combines human and animal features, expressing the priestly rulers' bond with natural forces. Coclé goldsmiths cast paired caiman-like creatures as pendants, evoking the land floating in the primordial sea. Much later, in the 1880s, Navajo (Diné) silversmiths, who had learned the craft from Hispanic artisans in New Mexico, developed the distinctive concho belt.\nDressed for the portrait\nPainters knew that clothes and jewellery could tell a sitter's story. Frans Hals caught the sheen of black satin in his 1627 Portrait of a Lady. Rembrandt dressed a favourite model in a gold chain and steel gorget to suggest an honoured military past. Ingres's Comte de Pastoret wears his finest garments and the medal of the Legion of Honour, while John Singer Sargent set off Mrs. George Swinton's regal bearing with bursts of brushwork describing a shimmering gown.\nEven armour became fashion: a sixteenth-century suit from Augsburg imitates, in etched steel, the embroidered front of a gentleman's doublet. From glass hoops to gilded steel, adornment turns the body into a place where craft, identity and belief meet.",
+    "imageUrl": "http://localhost:3003/api/media/file/aic-840-800x640.jpg",
+    "imageAlt": "A work made of glass.",
+    "venue": "Lumen",
+    "startDate": "2026-11-06T00:00:00.000Z",
+    "endDate": "2027-04-11T00:00:00.000Z",
+    "artworkCount": 16,
+    "artworkTitles": [
+      "Earring",
+      "Kohl Jar with Lid",
+      "Earring with Dolphin Head Finial",
+      "Necklace with Pendant",
+      "Hand Mirror",
+      "Mirror with a Handle in the Form of a Female Figure",
+      "Bead Net Funerary Shroud",
+      "Gold Pectoral with Zoomorphic Face",
+      "Double Pendant in the Form of a Mythical Saurian with Tusks",
+      "Concho Belt",
+      "Portrait of a Lady",
+      "Old Man with a Gold Chain",
+      "Amédée-David, the Comte de Pastoret",
+      "Mrs. George Swinton (Elizabeth Ebsworth)",
+      "Armor for Field and Tournament"
+    ],
+    "updatedAt": "2026-09-26T22:09:02.447Z"
+  },
+  {
+    "id": "tour-6",
+    "type": "tour",
+    "typeLabel": "Tour",
+    "title": "A Walk Through Impressionism",
+    "slug": "a-walk-through-impressionism",
+    "url": "http://localhost:3003/tours/a-walk-through-impressionism",
+    "summary": "The classic tour, in chronological order. Starting with the coastal painter who taught Monet to see, it follows the Impressionists from Normandy beaches to Parisian railway stations, millinery shops and nurseries, then on to the series paintings and the water lilies of Monet's old age.",
+    "body": "The classic tour, in chronological order. Starting with the coastal painter who taught Monet to see, it follows the Impressionists from Normandy beaches to Parisian railway stations, millinery shops and nurseries, then on to the series paintings and the water lilies of Monet's old age. Along the way, look for the movement's big ideas: painting outdoors, modern subjects, broken brushwork and the fleeting effects of light.\n\n1. Entrance to the Port of Honfleur — Before Impressionism had a name, there was Johan Barthold Jongkind. His Entrance to the Port of Honfleur, painted in 1863–64, shows the kind of coastal scene that fascinated the younger painters. Monet later claimed that it was Jongkind who educated his eye. Though Jongkind finished his canvases in the studio, he worked hard to keep the freshness of his outdoor sketches. Look at the loose sky and lively water: the seeds of a revolution are already here.\n2. The Beach at Sainte-Adresse — In 1867 the young Claude Monet was staying with his aunt at Sainte-Adresse, near Le Havre, where he grew up. He began this beach scene outdoors and probably revised it in the studio. Technical study has shown that it started as a picture of yachts and tourists but became a view of sailboats and local fishermen. The broad strokes of sand and cloud, and the cool light, show Monet working out how to paint what he saw directly.\n3. Woman at Her Toilette — Berthe Morisot was a founding member of the Impressionist group, and this painting of 1875–80 shows why she was admired. A woman adjusts her hair at a mirror, a subject many male artists painted, but Morisot's view is intimate rather than voyeuristic. The feathery strokes of lavender, pink, blue, white and grey are pure Impressionism. She signed her name along the bottom of the mirror, as if the whole image were as fleeting as a reflection.\n4. Arrival of the Normandy Train, Gare Saint-Lazare — The Impressionists loved modern Paris, and nothing was more modern than the railway. Monet made twelve paintings of the Gare Saint-Lazare, and in this one from 1877 a train from Normandy arrives beneath the glass-and-iron shed. What interested him was the mix of artificial and natural effects: clouds of steam trapped under the roof and daylight streaming through the glass. The subject is industrial, but the real theme is atmosphere.\n5. Two Sisters (On the Terrace) — Pierre-Auguste Renoir painted Two Sisters (On the Terrace) in 1881. Despite the title, the girls were not related. The older one gazes past her companion, whose flushed cheeks suggest she has just run into the picture. Behind them, a hazy riverside landscape dissolves into soft colour, and the basket of yarn in the foreground looks almost like a painter's palette. It captures Impressionism's gift for making a posed moment feel spontaneous and warm.\n6. The Millinery Shop — Degas preferred to call himself a realist, but he exhibited with the Impressionists throughout their group shows. In The Millinery Shop, worked on between 1879 and 1886, a milliner examines a hat. Hat-making was a respected trade, and Degas gives the woman a dress fine enough for an affluent customer. He playfully positions a hat with green trimmings so it seems to sit on her head. Notice the cropped, off-centre composition, a hallmark of his modern eye.\n7. Stack of Wheat (Snow Effect, Overcast Day) — In 1890–91 Monet painted the stacks of wheat outside his house at Giverny again and again, working at several easels at once as the light changed, then refining the canvases in the studio. This one records a snowy, overcast day, with the stack snugly bedded down between bands of field and hill. The series marked a breakthrough in his career: the true subject is no longer the haystack but the weather and the hour.\n8. The Child's Bath — Mary Cassatt was the only American invited to exhibit with the original French Impressionist group. The Child's Bath, from 1893, is one of her masterworks. A mother washes her child's feet, and the viewpoint looks down on them from above. The bold patterns, strong outlines, cropped forms and flattened space come from Cassatt's study of Japanese woodblock prints. It shows how Impressionism, by the 1890s, was opening onto new ways of seeing.\n9. Water Lily Pond — The tour ends where Impressionism went furthest. During the First World War, after years of ill health and mourning, Monet began his monumental water lily paintings, and alongside them he made nineteen smaller canvases like this one of 1917–19. Horizon and shore vanish; there is only the pond's surface, flowers and reflected sky. More than fifty years after Sainte-Adresse, Monet had turned the pursuit of light into something close to abstraction.",
+    "imageUrl": "http://localhost:3003/api/media/file/aic-30361-800x586.jpg",
+    "imageAlt": "A work made of oil on canvas.",
+    "theme": "Movements",
+    "durationMinutes": 30,
+    "stopCount": 9,
+    "artworkCount": 9,
+    "artworkTitles": [
+      "Entrance to the Port of Honfleur",
+      "The Beach at Sainte-Adresse",
+      "Woman at Her Toilette",
+      "Arrival of the Normandy Train, Gare Saint-Lazare",
+      "Two Sisters (On the Terrace)",
+      "The Millinery Shop",
+      "Stack of Wheat (Snow Effect, Overcast Day)",
+      "The Child's Bath",
+      "Water Lily Pond"
+    ],
+    "updatedAt": "2026-09-26T22:09:02.986Z"
+  },
+  {
+    "id": "movement-5",
+    "type": "movement",
+    "typeLabel": "Movement",
+    "title": "African Traditions",
+    "slug": "african-traditions",
+    "url": "http://localhost:3003/movements/african-traditions",
+    "summary": "The arts of Africa encompass an enormous diversity of cultures, each with its own forms, materials and meanings. Many works were created to be used: masks performed in masquerades, figures that honored ancestors or embodied spiritual power, and finely carved furnishings that signaled status.",
+    "body": "The arts of Africa encompass an enormous diversity of cultures, each with its own forms, materials and meanings. Many works were created to be used: masks performed in masquerades, figures that honored ancestors or embodied spiritual power, and finely carved furnishings that signaled status. Sculptors often worked within established styles while bringing individual invention, and some, like the Yoruba carver Abogunde of Ede, are known by name. The collection includes a Kongo power figure (nkisi nkondi) studded with nails, a Chokwe chihongo mask, a Fang reliquary head from Gabon, a Luluwa mother-and-child figure, a Zulu headrest and a Swahili chair from Lamu. A portrait figure of a Bangwa king from Cameroon and a terracotta equestrian group from Mali, made centuries earlier, show the depth of the continent's artistic history.",
+    "imageUrl": "http://localhost:3003/api/media/file/aic-187528-800x1120.jpg",
+    "imageAlt": "A dark-brown painted sculpture with hints of orange showing through of a slim face with a long neck. The lips are drawn in a pout, the cheeks sunken, the hair pulled back in a swirl pattern and falling down in a slim column.",
+    "period": "c. 12th–20th century",
+    "movements": [
+      "African Traditions"
+    ],
+    "artworkCount": 10,
+    "artworkTitles": [
+      "Equestrian and Four Figures",
+      "Head",
+      "Chair (Kiti Cha Enzi)",
+      "Male Face Mask (Chihongo)",
+      "Container",
+      "Male Figure (Nkisi Nkondi)",
+      "Portrait Figure of Metang, the 10th King of Batufam",
+      "Headrest (Isicamelo)",
+      "Mother-and-Child Figure (Bwanga bwa Chibola)",
+      "Female Figure with Bowl"
+    ],
+    "updatedAt": "2026-09-26T22:08:58.536Z"
+  }
+]

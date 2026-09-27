@@ -3,6 +3,7 @@ import type { CollectionConfig } from 'payload'
 import { anyone, authenticated } from '@/access/public'
 import { slug } from '@/fields/slug'
 import { revalidateAfterChange, revalidateAfterDelete } from '@/hooks/revalidate'
+import { interaktAfterChange, interaktAfterDelete } from '@/interakt/hooks'
 
 export const Artists: CollectionConfig = {
   slug: 'artists',
@@ -18,7 +19,7 @@ export const Artists: CollectionConfig = {
     delete: authenticated,
   },
   defaultSort: 'name',
-  hooks: { afterChange: [revalidateAfterChange], afterDelete: [revalidateAfterDelete] },
+  hooks: { afterChange: [revalidateAfterChange, interaktAfterChange('artists')], afterDelete: [revalidateAfterDelete, interaktAfterDelete('artists')] },
   fields: [
     { name: 'name', type: 'text', required: true },
     {
